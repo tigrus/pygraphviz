@@ -1334,8 +1334,8 @@ class AGraph(object):
         if not data:
             raise IOError(b"".join(errors))
 
-        if len(errors) > 0:
-            warnings.warn(b"".join(errors), RuntimeWarning)
+        #if len(errors) > 0:
+            #warnings.warn(b"".join(errors), RuntimeWarning)
 
         return b"".join(data)
 
